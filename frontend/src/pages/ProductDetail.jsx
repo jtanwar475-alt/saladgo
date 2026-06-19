@@ -64,8 +64,22 @@ export default function ProductDetail() {
         animate={{ opacity: 1 }}
       >
         {/* Product Image */}
-        <div className="bg-gray-100 rounded-lg overflow-hidden h-96 flex items-center justify-center">
-          <div className="text-6xl">🥬</div>
+        <div className="bg-gray-100 rounded-lg overflow-hidden h-96">
+          {product.image ? (
+            <img 
+              src={product.image}
+              alt={product.name}
+              className="w-full h-full object-cover"
+            />
+          ) : (
+            <div className="w-full h-full flex items-center justify-center">
+              <img 
+                src={`https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop`}
+                alt={product.name}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          )}
         </div>
 
         {/* Product Info */}

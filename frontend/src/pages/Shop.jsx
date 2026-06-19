@@ -6,12 +6,12 @@ export default function Shop() {
   const [searchTerm, setSearchTerm] = useState('')
 
   const products = [
-    { id: 1, name: 'Fresh Tomatoes', price: 149, category: 'Vegetables' },
-    { id: 2, name: 'Crispy Lettuce', price: 99, category: 'Vegetables' },
-    { id: 3, name: 'Sweet Apples', price: 199, category: 'Fruits' },
-    { id: 4, name: 'Banana Bunch', price: 79, category: 'Fruits' },
-    { id: 5, name: 'Mixed Salad', price: 249, category: 'Salads' },
-    { id: 6, name: 'Fresh Juice', price: 159, category: 'Juices' },
+    { id: 1, name: 'Fresh Tomatoes', price: 149, category: 'Vegetables', img: 'https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=300&h=300&fit=crop' },
+    { id: 2, name: 'Crispy Lettuce', price: 99, category: 'Vegetables', img: 'https://images.unsplash.com/photo-1599599810694-2202a3c0b2f7?w=300&h=300&fit=crop' },
+    { id: 3, name: 'Sweet Apples', price: 199, category: 'Fruits', img: 'https://images.unsplash.com/photo-1585518419395-fc97c02c4e27?w=300&h=300&fit=crop' },
+    { id: 4, name: 'Banana Bunch', price: 79, category: 'Fruits', img: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=300&h=300&fit=crop' },
+    { id: 5, name: 'Mixed Salad', price: 249, category: 'Salads', img: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300&h=300&fit=crop' },
+    { id: 6, name: 'Fresh Juice', price: 159, category: 'Juices', img: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=300&h=300&fit=crop' },
   ]
 
   return (
@@ -42,8 +42,12 @@ export default function Shop() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {products.map((product) => (
             <div key={product.id} className="card-product">
-              <div className="bg-gradient-to-br from-green-100 to-orange-100 h-48 rounded-lg mb-4 flex items-center justify-center">
-                <div className="text-4xl">🥬</div>
+              <div className="h-48 rounded-lg mb-4 overflow-hidden bg-gray-100">
+                <img 
+                  src={product.img}
+                  alt={product.name}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">{product.name}</h3>
               <p className="text-sm text-gray-600 mb-2">{product.category}</p>
