@@ -66,14 +66,14 @@ export default function Home() {
           </motion.h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { name: 'Cut Vegetables', img: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300&h=300&fit=crop' },
+              { name: 'Cut Vegetables', img: 'https://images.unsplash.com/photo-1589985643862-18e937e14883?w=300&h=300&fit=crop' },
               { name: 'Fresh Fruits', img: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=300&h=300&fit=crop' },
-              { name: 'Salads', img: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300&h=300&fit=crop' },
+              { name: 'Salads', img: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&h=300&fit=crop' },
               { name: 'Juices', img: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=300&h=300&fit=crop' },
               { name: 'Smoothies', img: 'https://images.unsplash.com/photo-1618083479302-1e1f2e67dc84?w=300&h=300&fit=crop' },
-              { name: 'Sprouts', img: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300&h=300&fit=crop' },
-              { name: 'Exotic Veggies', img: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300&h=300&fit=crop' },
-              { name: 'Organic', img: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300&h=300&fit=crop' },
+              { name: 'Sprouts', img: 'https://images.unsplash.com/photo-1599599810694-2202a3c0b2f7?w=300&h=300&fit=crop' },
+              { name: 'Exotic Veggies', img: 'https://images.unsplash.com/photo-1599599810923-9468430262fa?w=300&h=300&fit=crop' },
+              { name: 'Organic', img: 'https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=300&h=300&fit=crop' },
             ].map((cat, idx) => (
               <motion.div
                 key={idx}
@@ -120,10 +120,10 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-center mb-12">Best Sellers</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {[
-              { id: 1, name: 'Fresh Tomatoes', price: 149, img: 'https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=300&h=300&fit=crop' },
+              { id: 1, name: 'Fresh Tomatoes', price: 149, img: 'https://images.unsplash.com/photo-1568695041386-6e725ebd4b78?w=300&h=300&fit=crop' },
               { id: 2, name: 'Crispy Lettuce', price: 99, img: 'https://images.unsplash.com/photo-1599599810694-2202a3c0b2f7?w=300&h=300&fit=crop' },
               { id: 3, name: 'Sweet Apples', price: 199, img: 'https://images.unsplash.com/photo-1585518419395-fc97c02c4e27?w=300&h=300&fit=crop' },
-              { id: 4, name: 'Fresh Carrots', price: 129, img: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300&h=300&fit=crop' },
+              { id: 4, name: 'Fresh Carrots', price: 129, img: 'https://images.unsplash.com/photo-1599599810923-9468430262fa?w=300&h=300&fit=crop' },
             ].map((prod) => (
               <motion.div
                 key={prod.id}
