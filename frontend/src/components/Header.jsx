@@ -14,14 +14,14 @@ export default function Header() {
   const totalItems = getTotalItems()
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-md">
-      <nav className="container-max flex items-center justify-between h-20">
+    <header className="sticky top-0 z-50 bg-white shadow-lg border-b-2 border-green-50">
+      <nav className="container-max flex items-center justify-between h-24 px-4">
         {/* Logo */}
-        <Link to="/" className="flex items-center">
+        <Link to="/" className="flex items-center hover:opacity-80 transition duration-200">
           <img 
             src="/logo.svg" 
             alt="SALADGO" 
-            className="h-16 w-auto"
+            className="h-20 w-auto"
           />
         </Link>
 

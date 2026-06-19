@@ -12,10 +12,10 @@ export default function Footer() {
             <img 
               src="/logo.svg" 
               alt="SALADGO" 
-              className="h-12 w-auto mb-4"
+              className="h-16 w-auto mb-3"
             />
-            <p className="text-gray-400 mb-4">Eat Fresh, Live Healthy</p>
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-400 mt-2">Eat Fresh, Live Healthy</p>
+            <p className="text-gray-500 text-sm mt-2">
               Premium fresh produce and healthy food solutions for your lifestyle.
             </p>
           </div>
