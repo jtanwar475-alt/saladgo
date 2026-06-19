@@ -122,8 +122,9 @@ export default function Home() {
             {[
               { id: 1, name: 'Fresh Tomatoes', price: 149, img: 'https://images.unsplash.com/photo-1568695041386-6e725ebd4b78?w=300&h=300&fit=crop' },
               { id: 2, name: 'Crispy Lettuce', price: 99, img: 'https://images.unsplash.com/photo-1599599810694-2202a3c0b2f7?w=300&h=300&fit=crop' },
-              { id: 3, name: 'Sweet Apples', price: 199, img: 'https://images.unsplash.com/photo-1585518419395-fc97c02c4e27?w=300&h=300&fit=crop' },
-              { id: 4, name: 'Fresh Carrots', price: 129, img: 'https://images.unsplash.com/photo-1599599810923-9468430262fa?w=300&h=300&fit=crop' },
+              { id: 3, name: 'Cut Vegetables Mix', price: 179, img: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300&h=300&fit=crop' },
+              { id: 4, name: 'Sweet Apples', price: 199, img: 'https://images.unsplash.com/photo-1585518419395-fc97c02c4e27?w=300&h=300&fit=crop' },
+              { id: 5, name: 'Fresh Carrots', price: 129, img: 'https://images.unsplash.com/photo-1599599810923-9468430262fa?w=300&h=300&fit=crop' },
             ].map((prod) => (
               <motion.div
                 key={prod.id}

@@ -8,10 +8,11 @@ export default function Shop() {
   const products = [
     { id: 1, name: 'Fresh Tomatoes', price: 149, category: 'Vegetables', img: 'https://images.unsplash.com/photo-1568695041386-6e725ebd4b78?w=300&h=300&fit=crop' },
     { id: 2, name: 'Crispy Lettuce', price: 99, category: 'Vegetables', img: 'https://images.unsplash.com/photo-1599599810694-2202a3c0b2f7?w=300&h=300&fit=crop' },
-    { id: 3, name: 'Sweet Apples', price: 199, category: 'Fruits', img: 'https://images.unsplash.com/photo-1585518419395-fc97c02c4e27?w=300&h=300&fit=crop' },
-    { id: 4, name: 'Banana Bunch', price: 79, category: 'Fruits', img: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=300&h=300&fit=crop' },
-    { id: 5, name: 'Mixed Salad', price: 249, category: 'Salads', img: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&h=300&fit=crop' },
-    { id: 6, name: 'Fresh Juice', price: 159, category: 'Juices', img: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=300&h=300&fit=crop' },
+    { id: 3, name: 'Cut Vegetables Mix', price: 179, category: 'Vegetables', img: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=300&h=300&fit=crop' },
+    { id: 4, name: 'Sweet Apples', price: 199, category: 'Fruits', img: 'https://images.unsplash.com/photo-1585518419395-fc97c02c4e27?w=300&h=300&fit=crop' },
+    { id: 5, name: 'Banana Bunch', price: 79, category: 'Fruits', img: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=300&h=300&fit=crop' },
+    { id: 6, name: 'Mixed Salad', price: 249, category: 'Salads', img: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&h=300&fit=crop' },
+    { id: 7, name: 'Fresh Juice', price: 159, category: 'Juices', img: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=300&h=300&fit=crop' },
   ]
 
   return (

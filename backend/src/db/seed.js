@@ -126,6 +126,18 @@ const seedDatabase = async () => {
         isActive: true,
       },
       {
+        name: 'Cut Vegetables Mix',
+        description: 'Ready-to-cook mix of fresh cut vegetables',
+        price: 179,
+        stock: 55,
+        image: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop',
+        categoryId: categories[0].id,
+        unit: 'kg',
+        weight: 0.5,
+        rating: 4.6,
+        isActive: true,
+      },
+      {
         name: 'Banana Bunch',
         description: 'Fresh bananas rich in potassium',
         price: 79,
