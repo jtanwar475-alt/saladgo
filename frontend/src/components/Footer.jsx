@@ -9,10 +9,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div>
-            <div className="text-2xl font-bold mb-4">
-              <span className="text-green-500">SALAD</span>
-              <span className="text-orange-500">GO</span>
-            </div>
+            <img 
+              src="/logo.svg" 
+              alt="SALADGO" 
+              className="h-12 w-auto mb-4"
+            />
             <p className="text-gray-400 mb-4">Eat Fresh, Live Healthy</p>
             <p className="text-gray-400 text-sm">
               Premium fresh produce and healthy food solutions for your lifestyle.

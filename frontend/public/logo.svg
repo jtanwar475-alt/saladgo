@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="200" height="200">
+  <!-- Background circle -->
+  <circle cx="250" cy="250" r="240" fill="#f5f1e8" opacity="0.3"/>
+  
+  <!-- Decorative leaves -->
+  <g opacity="0.3">
+    <path d="M 80 100 Q 70 130 85 160 Q 95 140 90 100" fill="#6b8e23"/>
+    <path d="M 420 100 Q 430 130 415 160 Q 405 140 410 100" fill="#6b8e23" transform="scale(-1 1) translate(-500 0)"/>
+    <path d="M 100 420 Q 90 390 105 360 Q 115 380 110 420" fill="#6b8e23"/>
+    <path d="M 400 420 Q 410 390 395 360 Q 385 380 390 420" fill="#6b8e23" transform="scale(-1 1) translate(-500 0)"/>
+  </g>
+  
+  <!-- Fork with leaves -->
+  <g id="fork">
+    <!-- Fork handle -->
+    <rect x="235" y="350" width="30" height="80" fill="#6b8e23" rx="15"/>
+    <!-- Fork base -->
+    <rect x="210" y="330" width="80" height="25" fill="#6b8e23" rx="5"/>
+    <!-- Left prong -->
+    <rect x="225" y="200" width="12" height="140" fill="#6b8e23" rx="6"/>
+    <!-- Center prong -->
+    <rect x="244" y="170" width="12" height="170" fill="#6b8e23" rx="6"/>
+    <!-- Right prong -->
+    <rect x="263" y="200" width="12" height="140" fill="#6b8e23" rx="6"/>
+    
+    <!-- Leaves on fork -->
+    <!-- Left side leaves -->
+    <g transform="translate(210, 240)">
+      <ellipse cx="0" cy="0" rx="8" ry="12" fill="#7cb342" transform="rotate(-45)"/>
+      <ellipse cx="2" cy="8" rx="6" ry="10" fill="#7cb342" transform="rotate(-20)"/>
+      <ellipse cx="0" cy="16" rx="7" ry="11" fill="#7cb342" transform="rotate(-40)"/>
+    </g>
+    <!-- Right side leaves -->
+    <g transform="translate(290, 240)">
+      <ellipse cx="0" cy="0" rx="8" ry="12" fill="#7cb342" transform="rotate(45)"/>
+      <ellipse cx="-2" cy="8" rx="6" ry="10" fill="#7cb342" transform="rotate(20)"/>
+      <ellipse cx="0" cy="16" rx="7" ry="11" fill="#7cb342" transform="rotate(40)"/>
+    </g>
+  </g>
+  
+  <!-- Text: SALADGO -->
+  <text x="250" y="120" font-size="60" font-weight="bold" text-anchor="middle" font-family="Arial, sans-serif">
+    <tspan fill="#6b8e23">SALAD</tspan>
+    <tspan fill="#ff9800">GO</tspan>
+  </text>
+  
+  <!-- Tagline -->
+  <text x="250" y="450" font-size="22" text-anchor="middle" font-family="cursive" fill="#6b8e23">
+    Eat Fresh, Live Healthy
+  </text>
+</svg>

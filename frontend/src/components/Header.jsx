@@ -17,11 +17,12 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <nav className="container-max flex items-center justify-between h-20">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2">
-          <div className="text-2xl font-bold">
-            <span className="text-green-600">SALAD</span>
-            <span className="text-orange-500">GO</span>
-          </div>
+        <Link to="/" className="flex items-center">
+          <img 
+            src="/logo.svg" 
+            alt="SALADGO" 
+            className="h-16 w-auto"
+          />
         </Link>
 
         {/* Desktop Menu */}
